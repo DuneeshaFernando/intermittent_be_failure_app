@@ -15,3 +15,6 @@ def hello():
     else:
         # Return a 200
         return 'Hello, World!'
+
+if __name__ == '__main__':
+    app.run()
